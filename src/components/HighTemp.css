@@ -1,0 +1,24 @@
+.high-temp-container {
+    background-color: var(--light-grey);
+    color: var(--black);
+    border-radius: 45px;
+    width: 49%;
+    width: 133.82px;
+    height: 141px;
+    padding: 20px;
+    margin-left: 10px;
+}
+.high-temp-top {
+    display: flex;
+}
+
+.high-title {
+    font-size: 22px;
+}
+.high-temp-top i {
+    padding-right: 5px;
+}
+.high-temp {
+    font-size: 42px;
+    padding-top: 10px;
+}

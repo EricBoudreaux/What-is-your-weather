@@ -1,0 +1,60 @@
+:root {
+    --white: #ffffff; 
+    --black: #080808;
+    --light-grey: #d0d5db;
+    --med-grey: #9ca1aa;
+    --dark-grey: #596069;
+    --light-blue: #789cbf;
+    --elec-blue: #235fd5;
+    --med-blue: #6e86a5;
+    --dark-blue: #566693;
+    --yellow: #f5e227;
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    background-color: var(--black) !important;
+    color: white !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  margin: 0 5% !important;
+
+}
+@media only screen and (min-width: 375px){
+  .App {
+    margin: 0 12% !important;
+  }
+}
+@media only screen and (min-width: 425px){
+  .App {
+    margin: 0 15% !important;
+  }
+}
+@media only screen and (min-width: 490px){
+  .App {
+    margin: 0 5% !important;
+  }
+}
+@media only screen and (min-width: 768px){
+  .App {
+    margin: 0 13% !important;
+  }
+}
+@media only screen and (min-width: 1024px){
+  .App {
+    margin: 0 22% !important;
+  }
+}
+@media only screen and (min-width: 1440px){
+  .App {
+    margin: 0 10% !important;
+  }
+}

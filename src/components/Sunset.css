@@ -1,0 +1,23 @@
+.sunset-container {
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: 45px;
+    width: 133.82px;
+    max-width: 139px;
+    height: 141px;
+    padding: 20px;
+    margin-left: 10px;
+}
+.sunset-top {
+    display: flex;
+}
+.sunset-title {
+    font-size: 20px;
+}
+.sunset-top i {
+    padding-right: 5px;
+}
+.sunset {
+    font-size: 18px;
+    padding-top: 30px;
+}

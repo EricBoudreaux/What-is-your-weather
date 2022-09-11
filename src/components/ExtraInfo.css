@@ -1,0 +1,42 @@
+.extra-container {
+    background-color: var(--light-grey);
+    border-radius: 45px;
+    color: black;
+    height: 205px;
+    padding: 10px 20px;
+    width: 278px;
+    display: flex;
+    margin-top: 10px;
+}
+.extra-top,
+.extra-bottom {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.extra-top,
+.extra-bottom {
+    padding-top: 10px;
+}
+.real-feel-container,
+.humidity-container,
+.wind-container,
+.wind-direction-container {
+    font-size: 18px;
+    height: 50%;
+}
+
+.real-feel,
+.humidity,
+.wind,
+.wind-direction {
+    font-size: 36px;
+    margin: -5px 0;
+
+}
+.wind-direction {
+    margin-left: 10px;
+}
+.symbols {
+    font-size: 16px;
+}

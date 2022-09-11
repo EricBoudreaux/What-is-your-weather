@@ -1,0 +1,22 @@
+.sunrise-container {
+    background-color: var(--yellow);
+    color: var(--black);
+    border-radius: 45px;
+    width: 133.82px;
+    max-width: 139px;
+    height: 141px;
+    padding: 20px;
+}
+.sunrise-top {
+    display: flex;
+}
+.sunrise-title {
+    font-size: 20px;
+}
+.sunrise-top i {
+    padding-right: 5px;
+}
+.sunrise {
+    font-size: 18px;
+    padding-top: 30px;
+}

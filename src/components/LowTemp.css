@@ -1,0 +1,22 @@
+.low-temp-container {
+    background-color: var(--elec-blue);
+    border-radius: 45px;
+    width: 49%;
+    width: 133.82px;
+    height: 141px;
+    padding: 20px;
+
+}
+.low-temp-top {
+    display: flex;
+}
+.low-title {
+    font-size: 22px;
+}
+.low-temp-top i {
+    padding-right: 5px;
+}
+.low-temp {
+    font-size: 42px;
+    padding-top: 10px;
+}
