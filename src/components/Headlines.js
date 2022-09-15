@@ -72,25 +72,21 @@ export default function Headlines({ weatherData, iconId }) {
 
     let sunrise = new Date(weatherData.city.sunrise * 1000).toLocaleTimeString('en-gb')
     let sunset = new Date(weatherData.city.sunset * 1000).toLocaleTimeString('en-gb')
-    let currentTime = moment().format('hh:mm:ss');
+    let currentTime = moment().format('HH:mm:ss');
+
     let background; 
-
-    console.log(sunrise, sunset)
-
-
-    if(currentTime > sunrise || currentTime < sunset){
-        console.log('its day out')
+    if(currentTime > sunrise && currentTime < sunset){
          background = {
             backgroundImage: `url(${sunBg})`,
             backgroundSize: 'cover'
         }
-    } else if(currentTime < sunrise || currentTime > sunset){
-        console.log('its night out')
+    } else {
          background = {
             backgroundImage: `url(${moonBg})`,
             backgroundSize: 'cover'
         }
     }
+
 
   return (
     <div className="headlines-container" style={background}>

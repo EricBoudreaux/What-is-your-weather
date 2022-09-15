@@ -15,7 +15,13 @@
     justify-items: space-evenly;
 }
 .days {
-    margin: 0 4px;
+    margin: 0 1px;
+    border: solid 2px white;
+    background: white;
+    color: black;
+    padding: 2px;
+    border-radius: 8px;
+    height: 80px;
 }
 .days-temperature {
     font-size: 22px;
