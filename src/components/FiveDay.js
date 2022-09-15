@@ -34,19 +34,19 @@ export default function FiveDay({ weatherData }) {
         </div>
         <div className='days'>
             <p className='days-temperature'>{dayTwoTemperature}&deg;</p>
-            <p>{dayTwo.slice(5,7)}/{dayOne.slice(8,10)}</p>
+            <p>{dayTwo.slice(5,7)}/{dayTwo.slice(8,10)}</p>
         </div>
         <div className='days'>
             <p className='days-temperature'>{dayThreeTemperature}&deg;</p>
-            <p>{dayThree.slice(5,7)}/{dayOne.slice(8,10)}</p>
+            <p>{dayThree.slice(5,7)}/{dayThree.slice(8,10)}</p>
         </div>
         <div className='days'>
             <p className='days-temperature'>{dayFourTemperature}&deg;</p>
-            <p>{dayFour.slice(5,7)}/{dayOne.slice(8,10)}</p>
+            <p>{dayFour.slice(5,7)}/{dayFour.slice(8,10)}</p>
         </div>
         <div className='days'>
             <p className='days-temperature'>{dayFiveTemperature}&deg;</p>
-            <p>{dayFive.slice(5,7)}/{dayOne.slice(8,10)}</p>
+            <p>{dayFive.slice(5,7)}/{dayFive.slice(8,10)}</p>
         </div>
         </div>
     </div>
